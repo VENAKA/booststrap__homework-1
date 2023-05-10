@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* HEADER__START */
+.header {
+    max-width: 2000px;
+    height: 100px;
+    background-color: rgb(69, 69, 113);
+    display: flex;
+    align-items: center;
+}
+.burger {
+    display: none;
+}
+.header__nav {
+    width: 750px;
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.home {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.header__text:hover {
+    color: rgb(75, 169, 169);
+    font-size: 25px;
+}
+.header__text{
+    transition: 1s;
+}
+.login {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.contact {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.0571015px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-decoration: none;
+}
+/* HEADER__END */
+body{
+    background-color: rgb(105, 119, 224);
+}
+.accordion-item {
+    background-color: rgb(74, 54, 163);
+}
+.accordion-button{
+    background-color: rgb(74, 135, 179);
+    transition: 1s;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.0571015px;
+    color: #091840;
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(80, 80, 172);
+}
+.accordion-button:hover{
+    background-color: rgb(63, 63, 161);
+}
+.accordion-button:active{
+    background-color: rgb(41, 41, 170);
+}
+.card-body {
+    background-color: rgb(142, 142, 239);
+}
+.accordion-body {
+    display: flex;
+    justify-content: space-around;
+}
+.conteiner {
+    width: 516px;
+    height: 516px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
